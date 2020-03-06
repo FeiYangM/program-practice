@@ -1,0 +1,9 @@
+The programs aim to train a neuro-network(nn) to recognize hand-writing words.
+The nn is loaded in a class in neuronetwork.py that will be imported into
+main.py. You only need to run the main.py program to train your own nn for 
+hand-writing words.
+
+More details are in main.py. I tested the code in every sub-function seperatly, 
+and then packaged them into these two programs. Because there is something wrong
+with my network that the MNIST data cannot be downloaded when I tested the main.py 
+function. So maybe there will be little errors. I will further test it soon.
