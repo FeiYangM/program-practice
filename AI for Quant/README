@@ -1,0 +1,6 @@
+This program is used for choosing a portfolio for investment based on historical data of market price.
+It begins with reading data by Pandas, and processes a few steps, such as resampling, returns calcualtion,
+portfolio chosen and so on. At last, it evaluates the portfolio by t-test.
+
+Hint: Thanks for the class of Udacity! This question is a mini-project in one class, and I re-wrote codes in
+a different way after I learnt from it.
