@@ -5,7 +5,7 @@ import numpy as np
 
 
 
-########################################Below is Rank-Based Recommendation################
+########################################Below is Rank-Based Recommendation######################################
 
 def get_top_articles(n, df):
     '''
@@ -157,7 +157,7 @@ def user_user_recs(user_id, user_item, df, m=10):
     for user in similarity_user:
         similarity_article_id, similarity_article_name = get_user_articles(user, user_item, df) # get the info of similarity user
         article_not_seen = np.setdiff1d(np.array(similarity_article_id), 
-        								np.array(user_seen_article_id), assume_unique = True).tolist() # not seen by owner
+        				np.array(user_seen_article_id), assume_unique = True).tolist() # not seen by owner
         recs.extend(article_not_seen)
         recs = pd.Series(recs).drop_duplicates().tolist()
         
@@ -169,7 +169,7 @@ def user_user_recs(user_id, user_item, df, m=10):
 
     return recs # return your recommendations for this user_id    
 
-####################################################################################
+###################################################################################################################
 
 def email_mapper(df):
     coded_dict = dict()
