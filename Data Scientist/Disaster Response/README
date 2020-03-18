@@ -1,0 +1,3 @@
+This project is designed for sending warnings about disaster based on analyzing the text on social media.
+The Python program includes two parts. One is pre-processing data and the other one is training a Machine
+Learning model to respond to the data.
