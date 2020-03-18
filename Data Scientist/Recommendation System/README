@@ -1,0 +1,16 @@
+This is a simple recommendation system. The original data is not provided here, but it looks like:
+
+data.csv:
+
+article_id,title,email
+XXX,XXX,XXX
+......
+XXX,XXX,XXX
+
+
+Tips: This input file includes three columns which are article_id, title and email. It is like a platform
+where users log in and read articles. So the data is about whom the users are and what articles they read.
+Article_id is a number for each article, and the title stands for the specific title of the article.
+
+The Python program in this folder aims to recommend new articles for users based on two methods,
+Rank-Based Recommendation and User-User Based Recommendation. More methods will be added soon.
