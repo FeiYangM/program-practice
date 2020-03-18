@@ -1,3 +1,28 @@
 This project is designed for sending warnings about disaster based on analyzing the text on social media.
-The Python program includes two parts. One is pre-processing data and the other one is training a Machine
-Learning model to respond to the data.
+The Python program includes two parts. One is pre-processing data and outputting them into a SQL database.
+The other one is loading data from database and training a Machine Learning model to respond to the data.
+
+Usage:
+    1.  run: python process_data.py disaster_message.csv disaster_categories.csv DisasterResponse.db
+    2.  run: python train_classifier.py  DisasterResponse.db classifier.pkl
+
+Data is not provided here.
+
+Example of them:
+
+disaster_message.csv:
+   id,message,original,genre
+   xxx,xxx,xxx,xxx
+   ......
+   xxx,xxx,xxx,xxx
+   
+   (column message is sentences that should be analyzed)
+   
+disaster_categories.csv:
+   id,categories
+   xxx,xxx
+   ......
+   xxx,xxx
+   (column categories include many classes. The data is like related-1,medical-0,...,food-0.
+   One column includes a lot of information that need pre-process steps before training model)
+   
