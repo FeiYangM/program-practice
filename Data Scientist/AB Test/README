@@ -1,0 +1,21 @@
+A mini-project for A/B test analysis.
+Imagine you need to test a new design of your website to sell something.
+The data you collected includes two things:
+1. ab_test.csv, it looks like:
+
+   user_id,timestamp,group,landing_page,converted
+   1,2020-1-10,control,old_page,0
+   2,2020-1-11,control,old_page,1
+   3,2020-1-12,treatment,new_page,1
+   ......
+   
+2. country_info.csv:
+
+   user_id,country
+   1,UK
+   2,US
+   ......
+
+The program ab_test.py outputs the result telling you whether the new design 
+improves conversion rate based on the data with hypothesis test methods and
+logistic regression model, seperately.
