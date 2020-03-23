@@ -15,6 +15,8 @@ The data you collected includes two things:
    1,UK
    2,US
    ......
+   
+Above shows what the data looks like, but they are not provided here.
 
 The program ab_test.py outputs the result telling you whether the new design 
 improves conversion rate based on the data with hypothesis test methods and
