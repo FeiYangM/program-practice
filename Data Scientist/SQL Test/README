@@ -1,1 +1,3 @@
 This folder includes some scripts for SQL.
+test.sql: examples of basic operation
+user_behavior.sql: user behavior analysis based on taobao public data
