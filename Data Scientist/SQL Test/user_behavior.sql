@@ -1,3 +1,5 @@
+## data looks like:
+## user_id,item_id.category_id,behavior,timestams,datentime,dates,hours
 
 ###########Analysis of PV,UV and so on###########################
 # pv/uv
