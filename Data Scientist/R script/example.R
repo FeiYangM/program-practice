@@ -2,11 +2,11 @@
 
 ################################################################################
 #usage: Rscript example.R inputfile                                            #
-#output: inputfile.pdf      												                           #
-#																			                                         #
+#output: inputfile.pdf                                                         #
+#                                                                              #
 #        plot distribution of mutation number, pliody state and rho number     #
-#        in one figure 														                             #
-#																			                                         #
+#        in one figure                                                         #
+#                                                                              #
 ################################################################################
 
 library(ggplot2)
