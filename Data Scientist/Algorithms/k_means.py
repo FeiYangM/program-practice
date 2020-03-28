@@ -14,7 +14,7 @@ Usage: python k_means.py input.csv N
        output will be printed on screen which stands for the label results for each sample
 '''
 
-class k_means_al:
+class k_means:
 	def __init__(self, datasets1, k):
 		self.data = datasets1
 		self.classN = k
@@ -42,7 +42,7 @@ def classifier(data, k):
 	cost = np.zeros(datasets_arr.shape[0])
 
 	# use class model
-	model = k_means_al(datasets_arr, k)
+	model = k_means(datasets_arr, k)
 	center = model.random_center()
 
 	converg = False
