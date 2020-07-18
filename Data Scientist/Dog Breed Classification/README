@@ -1,0 +1,2 @@
+This program conducted a classifier based on CNN that can detect human faces and dogs. For dogs, this
+model can classify the specific breed.
