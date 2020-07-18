@@ -10,7 +10,9 @@ from flask import render_template, request, jsonify
 from plotly.graph_objs import Bar
 from sklearn.externals import joblib
 from sqlalchemy import create_engine
-
+import sys
+sys.path.append('..')
+from models.glove_vectorizer import GloveVectorizer
 
 app = Flask(__name__)
 
